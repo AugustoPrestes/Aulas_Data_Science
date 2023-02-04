@@ -1,7 +1,2 @@
 link para acesso rapido
 https://github.com/joelgrus/data-science-from-scratch
-{
-    "API_KEY": "X0c31H6MqmSEPgRqHgnz2iaHs",
-    "API_KEY_SECRET": "pbLs5wHkXE6qfXwf1pOJ6ASNRbqJ1UpU3kkqA5uGot4yNIow7S",
-    "BEARER_TOKEN": "AAAAAAAAAAAAAAAAAAAAAHwtlgEAAAAAebyTIVlJJdUM1m1COnrIm7KYLOs%3DUXgCbPSH4eUrGXiLf0vre7PhowJyCbVHU1DGhPdRbDREWEV2vV"
-}
