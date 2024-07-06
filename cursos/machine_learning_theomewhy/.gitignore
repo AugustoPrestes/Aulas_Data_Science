@@ -1,4 +1,9 @@
+
+# Tipos de arquivos excluidos
 *.csv
 *.db
 *.xlsx
 *.parquet
+
+# paths isn't save
+/env    
