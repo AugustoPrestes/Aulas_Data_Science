@@ -9,8 +9,8 @@ df
 
 df['Aprovado'] = df["nota"] >= 5
 
-features = ['cerveja']
-target = 'Aprovado'
+features = df['cerveja']
+target = df['Aprovado']
 # %%
 from sklearn import linear_model
 reg = linear_model.LogisticRegression(penalty=None,

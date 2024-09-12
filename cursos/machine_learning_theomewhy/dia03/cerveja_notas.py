@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 df = pd.read_excel("../data/dados_cerveja_nota.xlsx")
 df
 # %%
-# Criando gráfico de cervejas
 
+# Criando gráfico de cervejas
 plt.plot(df["cerveja"], df["nota"], 'o')
 plt.grid(True)
 plt.title("Relação Nota vs Cerveja")
@@ -18,14 +18,13 @@ plt.ylabel("Nota")
 plt.show()
 
 # %%
-
 from sklearn import linear_model
 reg = linear_model.LinearRegression()
 reg.fit(df[["cerveja"]], df["nota"])
 
 # %%
 a, b = reg.intercept_, reg.coef_[0]
-print(f"a={a}; b={b}")
+print(f"a={a}\nb={b}")
 
 # %%
 X = df[["cerveja"]].drop_duplicates()
